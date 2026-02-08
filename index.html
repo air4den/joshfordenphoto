@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josh Forden | Atlanta, GA Graduation Photos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="assets/hero.png">
+    <div class="hero-text">
+      <h1>Josh Forden</h1>
+      <p>Graduation Photographer</p>
+    </div>
+  </section>
+
+  <!-- Bio -->
+  <section class="bio">
+    <img src="assets/jp.jpeg" alt="Josh Forden" class="bio-photo">
+    <div class="bio-content">
+      <h3>Hi, I'm Josh! </h3>
+      <p>I'm based in Atlanta, GA and have over 8 years of professional photo experience. I capture candid graduation, event, and lifestyle photos.</p>
+      
+      <a href="https://instagram.com/josh_forden" target="_blank" rel="noopener" class="insta-link"><img src="https://static.xx.fbcdn.net/rsrc.php/v4/ye/r/h2ZEGNfz-SG.png" alt="Instagram" class="insta-icon">@josh_forden</a>
+      <a href="#book"><strong>Book a session!</strong></a>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio">
+    <div class="portfolio-grid" id="portfolio-grid"></div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-cards">
+
+      <div class="pricing-card">
+        <h3>Ramblin' Wreck Package</h3>
+        <ul>
+          <li>30-minute session</li>
+          <li>1 location</li>
+          <li>10-15 edited, high-resolution photos</li>
+        </ul>
+        <p class="price">$100</p>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Megatron Package</h3>
+        <ul>
+          <li>1-hour session</li>
+          <li>2 locations</li>
+          <li>20-25 edited, high-resolution photos</li>
+          <li>1+ Outfit change</li>
+        </ul>
+        <p class="price">$250</p>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Yellow Jacket Group Package</h3>
+        <ul>
+          <li>1-hour session</li>
+          <li>1 location</li>
+          <li>5+ edited photos per person + group photos</li>
+          <li>Minimum group size: 3</li>
+        </ul>
+        <p class="price">$80 per person</p>
+      </div>
+    </div>
+    <p>Don't see a package that fits your needs? Feel free to reach out!</p>
+
+  </section>
+
+  <!-- Book -->
+  <section class="book" id="book">
+    <h2>Book a Session</h2>
+    <p>Text me to book a session!</p>
+    <p class="phone">(630) 730-6867</p>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+    <button class="lightbox-prev" onclick="prevPhoto()">&#8249;</button>
+    <img id="lightbox-img" src="" alt="Photo">
+    <button class="lightbox-next" onclick="nextPhoto()">&#8250;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
