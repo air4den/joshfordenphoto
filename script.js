@@ -2,6 +2,10 @@ const photos = [
   'assets/gallery/IMG_1566.jpg',
   'assets/gallery/IMG_6319.jpg',
   'assets/gallery/P1150790.jpg',
+  'assets/gallery/Screenshot 2026-02-06 at 9.51.19 PM.png',
+  'assets/gallery/IMG_1566.jpg',
+  'assets/gallery/IMG_6319.jpg',
+  'assets/gallery/P1150790.jpg',
   'assets/gallery/Screenshot 2026-02-06 at 9.51.19 PM.png'
 ];
 
