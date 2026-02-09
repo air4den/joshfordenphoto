@@ -77,17 +77,23 @@ section {
 /* Bio */
 .bio {
   display: flex;
-  align-items: center;
+  /* padding: 50px 50px; */
   justify-content: center;
-  gap: 40px;
-  padding: 50px 50px;
 }
 
 @media (max-width: 850px) {
-    .bio {
-        padding: 10px 10px;
+    .bio-container {
         flex-direction: column;
     }
+}
+
+.bio-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+  border: 2px solid #1a1a1a;
+  padding: 20px;
 }
 
 .bio-content {
@@ -96,6 +102,7 @@ section {
     text-align: center;
     gap: 10px;
     align-items: center;
+    max-width: 400px;
 }
 
 .bio a {
@@ -130,6 +137,7 @@ section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  margin: 0 1rem;
 }
 
 @media (max-width: 850px) {
