@@ -36,14 +36,17 @@ a:hover {
     color: #555;
 }
 
-section {
-  margin: 60px 15px;
+section:not(.hero) {
+  max-width: 950px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 60px auto;
 }
 
 /* Hero */
 .hero {
   position: relative;
-  margin: 15px 15px;
+  margin: 0px 0px;
 }
 
 .hero img {
@@ -135,20 +138,13 @@ section {
 /* Portfolio */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  margin: 0 1rem;
-}
-
-@media (max-width: 850px) {
-  .portfolio-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .portfolio-grid img {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   cursor: pointer;
   transition: opacity 0.2s;
@@ -170,13 +166,10 @@ section {
 
 .pricing-cards {
   display: flex;
+  flex-direction: column;
   gap: 15px;
-}
-
-@media (max-width: 850px) {
-  .pricing-cards {
-    flex-direction: column;
-  }
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .pricing-card {
@@ -194,7 +187,6 @@ section {
 .pricing-card ul {
   flex: 1;
   list-style: none;
-  margin-bottom: 20px;
 }
 
 .pricing-card ul li {

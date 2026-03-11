@@ -1,12 +1,15 @@
 const photos = [
-  'assets/gallery/IMG_1566.jpg',
-  'assets/gallery/IMG_6319.jpg',
-  'assets/gallery/P1150790.jpg',
-  'assets/gallery/Screenshot 2026-02-06 at 9.51.19 PM.png',
-  'assets/gallery/IMG_1566.jpg',
-  'assets/gallery/IMG_6319.jpg',
-  'assets/gallery/P1150790.jpg',
-  'assets/gallery/Screenshot 2026-02-06 at 9.51.19 PM.png'
+  'assets/gallery/Steimel-5.jpg',
+  'assets/gallery/Steimel-4.jpg',
+  'assets/gallery/Steimel-19.jpg',
+  
+  'assets/gallery/Steimel-21.jpg',
+  'assets/gallery/Steimel-7.jpg',
+  'assets/gallery/Steimel-11.jpg',
+
+  'assets/gallery/Steimel-14.jpg',
+  'assets/gallery/Steimel-13.jpg',
+  'assets/gallery/Steimel-27.jpg',
 ];
 
 let currentIndex = 0;
