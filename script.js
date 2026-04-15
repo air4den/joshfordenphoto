@@ -15,6 +15,10 @@ const photos = [
   'assets/gallery/Steimel-7.jpeg',
   'assets/gallery/Steimel-11.jpeg',
 
+  'assets/gallery/michael_silas_grad-12.jpeg',
+  'assets/gallery/michael_silas_grad-16.jpeg',
+  'assets/gallery/michael_silas_grad-20.jpeg',
+
 ];
 
 let currentIndex = 0;
