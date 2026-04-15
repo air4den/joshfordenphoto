@@ -1,15 +1,20 @@
 const photos = [
-  'assets/gallery/Steimel-5.jpg',
-  'assets/gallery/Steimel-4.jpg',
-  'assets/gallery/Steimel-19.jpg',
-  
-  'assets/gallery/Steimel-21.jpg',
-  'assets/gallery/Steimel-7.jpg',
-  'assets/gallery/Steimel-11.jpg',
+  'assets/gallery/michael_silas_grad_compressed-4.jpg',
+  'assets/gallery/michael_silas_grad_compressed-5-2.jpg',
+  'assets/gallery/michael_silas_grad_compressed-1.jpg',
 
-  'assets/gallery/Steimel-14.jpg',
-  'assets/gallery/Steimel-13.jpg',
-  'assets/gallery/Steimel-27.jpg',
+  'assets/gallery/michael_silas_grad_compressed-4-2.jpg',
+  'assets/gallery/michael_silas_grad_compressed-5.jpg',
+  'assets/gallery/michael_silas_grad_compressed-3.jpg',
+
+  'assets/gallery/Steimel-5.jpeg',
+  'assets/gallery/Steimel-4.jpg',
+  'assets/gallery/Steimel-19.jpeg',
+  
+  'assets/gallery/Steimel-21.jpeg',
+  'assets/gallery/Steimel-7.jpeg',
+  'assets/gallery/Steimel-11.jpeg',
+
 ];
 
 let currentIndex = 0;
