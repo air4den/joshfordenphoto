@@ -1,23 +1,23 @@
 const photos = [
+  'assets/gallery/willbusch-10.jpg',
+  'assets/gallery/skyler-36.jpg',
+  'assets/gallery/tina-9.jpg',
+
+  'assets/gallery/tina-22.jpg',
+  'assets/gallery/willbusch-13.jpg',
   'assets/gallery/michael_silas_grad_compressed-4.jpg',
-  'assets/gallery/michael_silas_grad_compressed-5-2.jpg',
-  'assets/gallery/michael_silas_grad_compressed-1.jpg',
-
-  'assets/gallery/michael_silas_grad_compressed-4-2.jpg',
-  'assets/gallery/michael_silas_grad_compressed-5.jpg',
-  'assets/gallery/michael_silas_grad_compressed-3.jpg',
-
-  'assets/gallery/Steimel-5.jpeg',
-  'assets/gallery/Steimel-4.jpg',
-  'assets/gallery/Steimel-19.jpeg',
   
-  'assets/gallery/Steimel-21.jpeg',
-  'assets/gallery/Steimel-7.jpeg',
-  'assets/gallery/Steimel-11.jpeg',
+  'assets/gallery/skyler-23.jpg',
+  'assets/gallery/willbusch-16.jpg',
+  'assets/gallery/skyler-12.jpg',
 
+  'assets/gallery/tina-18.jpg',
+  'assets/gallery/michael_silas_grad_compressed-1.jpg',
+  'assets/gallery/skyler-9.jpg',
+
+  'assets/gallery/michael_silas_grad_compressed-5-2.jpg',
   'assets/gallery/michael_silas_grad-12.jpeg',
   'assets/gallery/michael_silas_grad-16.jpeg',
-  'assets/gallery/michael_silas_grad-20.jpeg',
 
 ];
 
